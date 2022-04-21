@@ -17,4 +17,4 @@ while(len(wanted_candles) != 1):
         wanted_candles.remove(wanted_candles[0])
         index_array.remove(index_array[0])
     j += 1
-print(index_array[0]-1)
+print(index_array[0]+1)
